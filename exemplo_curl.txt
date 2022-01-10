@@ -1,0 +1,1 @@
+curl -X POST http://127.0.0.1:8000/preverDoencaCard -H 'Content-Type: application/json' -d '{"age":30.0,"sex":1.0,"chest_pain_type":4.0,"resting_blood_pressure":128.0,"cholesterol":200.0,"fasting_blood_sugar":1.0,"rest_ecg":0.0,"max_heart_rate_achieved":200.0,"exercise_induced_angina":0.0,"st_depression":2.3,"st_slope":2.0,"num_major_vessels":3.0,"thalassemia":3.0}'

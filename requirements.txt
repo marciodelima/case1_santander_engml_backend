@@ -1,0 +1,8 @@
+pandas
+numpy
+sklearn
+pydocumentdb
+fastapi
+pydantic
+uvicorn
+gunicorn
