@@ -25,4 +25,5 @@ RUN chmod 777 $APP_HOME
 
 EXPOSE 8000:8000
 
-ENTRYPOINT ["/bin/sh", "start.sh"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+
