@@ -58,7 +58,7 @@ stages:
     - upload: deployment
       artifact: deployment
 - stage: Deploy
-  displayName: Deploy stage
+  displayName: Deploy AKS
   dependsOn: Build
   jobs:
   - deployment: Deploy
