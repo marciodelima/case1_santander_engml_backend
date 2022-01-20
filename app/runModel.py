@@ -68,6 +68,4 @@ def run(dt):
 	new_row = {"resultado": y_predict[0], "probabilidade": y_pred_quant[0][y_predict[0]]}
 	dt_saida = dt_saida.append(new_row, ignore_index=True)
 
-	print(dt_saida)
-
 	return dt_saida
